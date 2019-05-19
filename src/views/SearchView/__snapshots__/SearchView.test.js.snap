@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`SearchView.prototype.constructor Should be render search box correctly 1`] = `
-"<form id=\\"search-form\\" class=\\"search-form\\">
-      <input id=\\"search\\" class=\\"search-box\\" type=\\"text\\" name=\\"search\\" placeholder=\\"Search Youtube\\">
-      <input type=\\"submit\\" class=\\"submit-button\\" value=\\"\\">
-    </form>"
-`;
