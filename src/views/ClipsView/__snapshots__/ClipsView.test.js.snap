@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClipsView.renderEntry Should be render clips correctly 1`] = `
+"<div class=\\"clips\\"><div class=\\"clip-item\\" style=\\"background-image: url(https:/img.jpg)\\">
+      <div>
+        <a target=\\"_blank\\" href=\\"'https://www.youtube.com/watch?v=undefined\\">
+          JavaScript
+        </a>
+        <h5 class=\\"author-name\\"><i class=\\"material-icons\\">face</i>
+        Web Developer
+        </h5>
+        <p class=\\"date\\"><i class=\\"material-icons\\">today</i>
+        2018-09-06
+        </p>
+        <p class=\\"views\\"><i class=\\"material-icons\\">visibility</i>
+        3000
+        </p>
+        <p class=\\"description\\">Web</p>
+      </div>   
+    </div></div>"
+`;
+
+exports[`SearchView.prototype.renderEntry Should be render clips correctly 1`] = `
+"<div class=\\"clips\\"><div class=\\"clip-item\\" style=\\"background-image: url(https:/img.jpg)\\">
+      <div>
+        <a target=\\"_blank\\" href=\\"'https://www.youtube.com/watch?v=undefined\\">
+          JavaScript
+        </a>
+        <h5 class=\\"author-name\\"><i class=\\"material-icons\\">face</i>
+        Web Developer
+        </h5>
+        <p class=\\"date\\"><i class=\\"material-icons\\">today</i>
+        2018-09-06
+        </p>
+        <p class=\\"views\\"><i class=\\"material-icons\\">visibility</i>
+        3000
+        </p>
+        <p class=\\"description\\">Web</p>
+      </div>   
+    </div></div>"
+`;

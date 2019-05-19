@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: #e8e8e8;
+}
+
+.search-form {
+  width: 600px;
+  height: 40px;
+  margin: 30px auto;
+}
+
+.search-box {
+  width: 500px;
+  height: 40px;
+  padding: 0px 0px 0px 15px;
+  border: 2px solid #3c3d3a;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.search-box:focus,
+.search-box:hover {
+  background-color: #f2d2ea;
+  outline: none;
+}
+
+.submit-button {
+  width: 50px;
+  height: 40px;
+  margin-left: 10px;
+  padding: 0px;
+  border: 0px;
+  background-image: url('./assets/search.png');
+  background-color: #e8e8e8;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = from 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .search-form {
+    width: 450px;
+  }
+  .search-box {
+    width: 350px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles
+  ##Screen = from 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .search-form {
+    width: 370px;
+  }
+  .search-box {
+    width: 280px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles
+  ##Screen = from 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .search-form {
+    width: 310px;
+    height: 30px;
+  }
+  .search-box {
+    width: 220px;
+    height: 30px;
+  }
+
+  .submit-button {
+    width: 40px;
+    height: 30px;
+  }
+}
